@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"learning-go/challenges"
+)
 
 func main() {
-	fmt.Print("Hello World")
+	r := challenges.Fibonacci(10)
+	fmt.Println(r)
 }
